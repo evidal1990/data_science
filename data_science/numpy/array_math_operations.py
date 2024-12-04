@@ -1,5 +1,5 @@
 import numpy as np
-from numpy import sqrt
+from numpy import sin
 
 # 01. Crie dois arrays e faça a soma dos elementos correspondentes
 array_ex01_a = np.array([[10, 20], [11, 21], [12, 32]])
@@ -36,4 +36,20 @@ print("---------------------------------------------------------")
 # 07. Crie um array e calcule o logaritmo de cada valor.
 array_ex07 = np.array([10, 100, 250, 500])
 print(f'Resultado da operação = {np.log(array_ex07)}')
+print("---------------------------------------------------------")
+
+# 08. Crie um array e calcule o logaritmo de cada valor.
+array_ex08_a = np.array([[1, 1], [2, 2], [3, 3]])
+array_ex08_b = np.array([[4, 4], [5, 5], [6, 6]])
+print(f'Resultado da operação = {array_ex08_a * array_ex08_b}')
+print("---------------------------------------------------------")
+
+# 09. Crie um array e calcule o seno de cada elemento.
+array_ex09 = np.array([10, 20, 30, 40])
+print(f'Resultado da operação = {np.round(sin(array_ex09))}')
+print("---------------------------------------------------------")
+
+# 10. Crie um array e calcule a exponencial de cada elemento.
+array_ex10 = np.array([1, 2, 3, 4])
+print(f'Resultado da operação = {np.round(np.exp(array_ex10))}')
 print("---------------------------------------------------------")
