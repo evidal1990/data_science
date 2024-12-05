@@ -40,4 +40,6 @@ print("---------------------------------------------------------")
 print("---------------------------------------------------------")
 
 # 10. Crie um array e calcule a média dos elementos.
+array_stats_ex10 = np.array([50, 20, 30, 10, 40])
+print(f'Resultado esperado = {np.mean(array_stats_ex10)}')
 print("---------------------------------------------------------")
