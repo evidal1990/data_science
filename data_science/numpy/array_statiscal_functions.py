@@ -31,12 +31,20 @@ print(f'Resultado esperado = {np.cumsum(array_stats_ex06)}')
 print("---------------------------------------------------------")
 
 # 07. Crie um array e calcule a soma dos elementos de cada coluna.
+array_stats_ex07 = np.array([[10, 15, 20], [25, 30, 35]])
+print(f'Resultado esperado = {np.sum(array_stats_ex07, axis=0)}')
 print("---------------------------------------------------------")
 
 # 08. Crie um array e calcule a soma dos elementos de cada linha.
+array_stats_ex08 = np.array([[10, 15, 20], [25, 30, 35]])
+print(f'Resultado esperado = {np.sum(array_stats_ex08, axis=1)}')
 print("---------------------------------------------------------")
 
 # 09. Crie um array e calcule a distribuição dos elementos (percentis).
+array_stats_ex09 = np.array([50, 20, 30, 10, 40])
+print(f'Percential 25o = {np.percentile(array_stats_ex09, [25])}')
+print(f'Percential 50o = {np.percentile(array_stats_ex09, [50])}')
+print(f'Percential 75o = {np.percentile(array_stats_ex09, [75])}')
 print("---------------------------------------------------------")
 
 # 10. Crie um array e calcule a média dos elementos.
